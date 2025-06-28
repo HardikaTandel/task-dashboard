@@ -1,12 +1,50 @@
-# React + Vite
+# 📊 Task Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Task Management Dashboard** built using **ReactJS**, **Tailwind CSS**, and modular components. It features a clean user interface with functionality to **add, edit, delete, and manage tasks**, as well as a **user profile section**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [Click here to view the live site](https://task-dashboardd.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 📌 **Add, Edit, and Delete Tasks**
+- ✅ Mark tasks as complete or pending
+- 📈 View real-time task statistics: Total, Approved, Pending, Rejected
+- 👤 **User Profile Section** with editable name, email, and profile picture
+- 💻 Fully responsive design using **Tailwind CSS**
+- 🧩 Modular component-based architecture for clean code management
+
+---
+
+## 🧪 Technologies Used
+
+- ⚛️ ReactJS (Functional Components + Hooks)
+- 💨 Tailwind CSS (Utility-first styling)
+- 🧱 React Icons / Lucide React (for UI icons)
+- ⚡ Vite (for fast build and development)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── App.jsx                   
+├── index.css                 
+├── components/
+│   ├── Navbar.jsx
+│   ├── Dashboard.jsx
+│   ├── StatsCards.jsx
+│   ├── TaskList.jsx
+│   ├── AddTaskModal.jsx
+│   ├── EditTaskModal.jsx
+│   ├── ProfileDropdown.jsx
+│   └── EditProfileModal.jsx
+public/
+├── index.html
+
+
