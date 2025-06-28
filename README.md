@@ -31,7 +31,7 @@ A modern and responsive **Task Management Dashboard** built using **ReactJS**, *
 ---
 
 ## 📁 Project Structure
-
+```
 src/
 ├── App.jsx                   
 ├── index.css                 
@@ -48,4 +48,4 @@ public/
 ├── index.html
 |
 
-
+```
