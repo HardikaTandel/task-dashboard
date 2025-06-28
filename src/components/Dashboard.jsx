@@ -11,7 +11,7 @@ const Dashboard = () => {
     total: tasks.length,
     pending: tasks.filter(t => !t.completed).length,
     approved: tasks.filter(t => t.completed).length,
-    rejected: 0, // placeholder
+    
   };
 
   const handleAddTask = (task) => {

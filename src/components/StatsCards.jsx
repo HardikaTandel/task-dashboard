@@ -34,7 +34,7 @@ const StatsCards = ({ stats }) => {
 };
 
 const CardWrapper = ({ title, count, color, icon, bg }) => (
-  <div className="border hover:shadow-md transition-shadow rounded">
+  <div className="border hover:shadow-md transition-shadow rounded-xl">
     <div className="p-6 flex justify-between items-center">
       <div>
         <p className="text-sm font-medium text-gray-600">{title}</p>

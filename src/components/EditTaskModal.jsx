@@ -30,8 +30,8 @@ const EditTaskModal = ({ task, onSave, onClose }) => {
         />
 
         <div className="flex justify-end gap-2">
-          <button onClick={onClose} className="px-4 py-2 text-gray-500">Cancel</button>
-          <button onClick={handleSubmit} className="px-4 py-2 bg-blue-600 text-white rounded">Save</button>
+          <button onClick={onClose} className="px-4 py-2 text-white bg-red-500 rounded">Cancel</button>
+          <button onClick={handleSubmit} className="px-6 py-2 bg-blue-600 text-white rounded">Save</button>
         </div>
       </div>
     </div>

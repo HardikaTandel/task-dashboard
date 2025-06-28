@@ -27,8 +27,8 @@ const AddTaskModal = ({ onAdd, onClose }) => {
           onChange={e => setDescription(e.target.value)}
         />
         <div className="flex justify-end gap-2">
-          <button onClick={onClose} className="text-gray-500 px-4 py-2">Cancel</button>
-          <button onClick={handleSubmit} className="bg-blue-500 text-white px-4 py-2 rounded">Add</button>
+          <button onClick={onClose} className="text-white px-4 py-2 bg-red-500 rounded">Cancel</button>
+          <button onClick={handleSubmit} className="bg-blue-500 text-white px-7 py-2 rounded">Add</button>
         </div>
       </div>
     </div>
